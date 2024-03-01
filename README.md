@@ -30,5 +30,11 @@ Related repositories
 * Homepage: [webvella.com](http://webvella.com)
 * Twitter: [@webvella](https://twitter.com/webvella "webvella on twitter")
 
-
+## Additonal
+* Step 1: Download and setup in here https://www.postgresql.org/download/
+* ( During installation, It asked for a password, remember it) 
+* Step 2: After setup, open app pgAdmin 4, choose the Server and enter the password
+* Step 3: Right click on Databse, create an empty databse and set name it "new_db"
+* Step 4: Open project and reconfure file "config.json"
+* (Server:localhost; port:your port; User Id: postgres; Password: your password; Database: new_db;.... )
 
